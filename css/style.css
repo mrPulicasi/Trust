@@ -1,0 +1,57 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.bg{
+	height: 100vh;
+	width: 100%;
+	position: absolute;
+	background:linear-gradient(45deg,#d2001e,#7462aa,#f48e21,#23d5ab);
+	background-size: 300% 300%;
+	animation: color 12s ease-in-out infinite;
+}
+@keyframes color{
+	0%{
+		background-position: 0 50%;
+	}
+	50%{
+		background-position: 100% 50%;
+	}
+	100%{
+		background-position: 0 50%;
+	}
+}
+
+.navbar-brand {
+  letter-spacing: 3px;
+  color: #c24244;
+}
+
+.navbar-brand:hover {
+	color: #c24244;
+}
+
+.navbar-scroll .nav-link,
+.navbar-scroll .fa-bars {
+  color: #7f4722;
+}
+
+.navbar-scrolled .nav-link,
+.navbar-scrolled .fa-bars {
+  color: #7f4722;
+}
+
+.navbar-scrolled {
+  background-color: #ffede7;
+}
+.logo-title{
+	color: white;
+	font-size: 20px;
+}
+.cs{
+
+	text-align: center;
+	margin-top: 20%;
+}
